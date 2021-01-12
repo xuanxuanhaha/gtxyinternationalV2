@@ -28,6 +28,7 @@
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 0;
 }
 
 .sixblueunder {
@@ -122,9 +123,7 @@
     width: 90%;
 }
 
-.bottomthreeboxes {
-    width: 31%
-}
+
 
 .bottomthreeboxesunder {
     width: 31%;
@@ -183,7 +182,7 @@
 }
 
 .bottomthreeboxes {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .videopart {
@@ -204,7 +203,6 @@
     grid-template-columns: 40% 30% 30%;
 }
 .grid-item{
-    font-size: 30px;
     text-align: center;
 }
 .wording_next_to_video{
@@ -214,6 +212,26 @@
     background: #007db5;color: white;margin-left: auto;margin-right: 0;font-size: 20px;padding: 4px;width: 97%
 }
 
+.grid-container_overseas_gallery_resources{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.grid-item_overseas{
+    width: 95%;
+}
+.grid-item_gallery{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto
+}
+.grid-item_resources{
+    width: 95%;
+    margin-left: auto;
+    margin-right: 0;
+}
+.lifethreeunderwhite{
+    margin-top: -5px;
+}
 @media screen and (max-width: 1250px) {
     .homebannerimg{
         width: 90%;
@@ -363,13 +381,21 @@
     .wordingsintwothreeblue {
         font-size: 14px;
     }
-
+    .wording_next_to_video{
+        font-size: 16px;
+    }
 }
 
 
 @media screen and (max-width: 800px) {
     .lifeatGRPcontentwordings b {
         font-size: 14px;
+    }
+    .wording_next_to_video{
+        font-size: 15px;
+    }
+    .wording_next_to_video{
+        min-height: 150px;
     }
 }
 

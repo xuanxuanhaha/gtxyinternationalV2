@@ -1,0 +1,526 @@
+.homebannerimg{
+    display: block;
+    margin:auto;
+    width: 1180px;
+}
+.navbartohomebanner{
+    height: 150px;
+}
+
+.mainsection {
+    width: 100%;
+    background-color: #f2f4fb;
+}
+
+.threeboxesinmainsection {
+    margin: auto;
+    width: 1180px;
+}
+
+.threeboxesinmainsectionunder {
+    margin: auto;
+    width: 1180px;
+}
+
+.sixblueunderword {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sixblueunder {
+    background-color: #007db5;
+    margin-top: -5px
+}
+
+.twobluenews {
+    background-color: #007db5;
+    height: 40px;
+    margin: auto;
+    margin-top: -55px;
+    position: absolute;
+    width: 95px;
+    margin-left: 185px;
+}
+
+.threebluenews {
+    background-color: #007db5;
+    height: 40px;
+    margin: auto;
+    margin-top: -55px;
+    position: absolute;
+    width: 270px;
+    margin-left: 10px
+}
+
+.twobluenews p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.threebluenews p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.wordingsintwothreewhite {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 20px;
+    height: 150px;
+    z-index: -1;
+    text-align: left;
+}
+
+.wordingsintwothreeblue {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 800;
+    color: #007db5;
+    margin-bottom: 10px;
+}
+
+.twothreewhite {
+    background-color: white;
+    height: 260px;
+    margin: auto;
+    margin-top: -28px;
+    position: absolute;
+    width: 270px;
+    margin-left: 10px
+}
+
+.orangeline {
+    border: 2px solid #f58a2e;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.findoutmore {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.orangearrow {
+    color: #f58a2e;
+    font-weight: bold
+}
+
+.twothreebigborder {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 90%;
+}
+
+.bottomthreeboxes {
+    width: 31%
+}
+
+.bottomthreeboxesunder {
+    width: 31%;
+    margin-bottom: 30px;
+}
+
+.supportinternationalwording b {
+    font-size: 20px;
+    color: #1d1c3c;
+}
+
+.supportinternationalwording p {
+    font-size: 15px;
+    color: black;
+}
+
+.supportinternationalwording {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.yourlifewording {
+    color: #1d1c3c;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.lifethreeunderwhite {
+    height: 200px;
+    background-color: white;
+}
+
+.lifeatGRPcontentwordings b {
+    font-size: 20px;
+    color: #1d1c3c;
+}
+
+.lifeatGRPcontentwordings p {
+    font-size: 15px;
+    color: black;
+    padding-top: 20px;
+}
+
+.lifeatGRPcontentwordings {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.bottomthreeboxes {
+    padding-bottom: 50px;
+}
+
+.bottomthreeboxes {
+    margin-top: 100px;
+}
+
+.videopart {
+    width: 100%;
+    margin-top: 40px
+}
+
+.spacewidthbetweenvideo {
+    width: 2.9%;
+}
+
+.spacewidthbetweennews {
+    width: 3%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+.grid-item{
+    font-size: 30px;
+    text-align: center;
+}
+.wording_next_to_video{
+    padding: 20px;font-size: 20px;font-weight: 800;z-index: -1;text-align: left;margin-top: 0;padding-bottom: 0;min-height: 180px;
+}
+.news_overseas_header{
+    background: #007db5;color: white;margin-left: auto;margin-right: 0;font-size: 20px;padding: 4px;width: 97%
+}
+
+@media screen and (max-width: 1250px) {
+    .homebannerimg{
+        width: 90%;
+    }
+
+    .threeboxesinmainsection {
+        margin: auto;
+        width: 90%
+    }
+
+    .threeboxesinmainsectionunder {
+        margin: auto;
+        width: 90%
+    }
+
+    .twothreewhite {
+        width: 20.5%;
+    }
+
+    .wordingsintwothreewhite {
+        font-size: 14px;
+    }
+
+    .twobluenews {
+        width: 7.5%;
+        margin-left: 14%;
+    }
+
+    .threebluenews {
+        width: 20.5%;
+    }
+
+    .threebluenews p {
+        font-size: 14px;
+    }
+
+    .twobluenews p {
+        font-size: 14px;
+    }
+
+    .sixblueunderword {
+        font-size: 14px;
+    }
+
+    .lifeatGRPcontentwordings b {
+        font-size: 18px;
+    }
+
+    .lifeatGRPcontentwordings p {
+        font-size: 12px;
+    }
+    .news_overseas_header{
+        font-size: 18px;
+    }
+    .wording_next_to_video{
+        font-size: 18px;
+        min-height: 150px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bottomthreeboxes {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .news_header{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .wording_next_to_video{
+        font-size: 18px;
+        min-height: 180px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .bottomthreeboxes {
+        margin-top: 70px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .bottomthreeboxes {
+        margin-top: 70px;
+    }
+
+    .spacewidthbetweenvideo {
+        width: 0;
+    }
+    .twothreebigborder{
+        width: 95%;
+    }
+    .twothreewhite {
+        width: 40.5%;
+        margin-top: -40px;
+    }
+
+    .twobluenews {
+        width: 14.5%;
+        margin-left: 27%;
+        margin-top: -75px;
+    }
+
+    .threebluenews {
+        margin-top: -75px;
+        width: 40.5%;
+    }
+
+    .wordingsintwothreewhite {
+        height: 110px;
+    }
+
+    .twothreewhite {
+        height: 220px;
+    }
+
+    .bottomthreeboxes {
+        margin-top: 220px;
+    }
+
+    .videopart {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .navbartohomebanner {
+        height: 240px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .lifeatGRPcontentwordings b {
+        font-size: 15px;
+    }
+
+    .wordingsintwothreewhite {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .wordingsintwothreeblue {
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .lifeatGRPcontentwordings b {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .leftrightshow{
+        display: none;
+    }
+    .mobile600{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .homebannerimg{
+        width: 100%;
+    }
+    .navbartohomebanner{
+        height: 215px;
+    }
+    .desktop600{
+        display: none;
+    }
+
+
+    .grid-container_mobile{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .grid-item_mobile{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 600px) {
+    .topbottomshow{
+        display: none;
+    }
+    .leftrightrow{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+
+}
+@media screen and (max-width: 600px) {
+    .homebannerimg{
+        width: 100%;
+    }
+
+    .navbartohomebanner{
+        height: 215px;
+    }
+    .homebannerimgmobile{
+        display: block;
+        margin:auto;
+        width: 100%;
+    }
+    .twothreebigborder{
+        width: 100%;
+    }
+    .twothreewhite{
+        width: 85%;
+        margin-left: 2.5%;
+        height: 260px;
+    }
+    .twobluenews{
+        width: 30%;
+        margin-left: 57.5%;
+    }
+    .threebluenews{
+        width: 85%;
+        margin-left: 2.5%;
+    }
+    .twobluenews p{
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .threebluenews p{
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .wordingsintwothreewhite{
+        font-size: 20px;
+        width: 90%;margin: auto;height: 140px;
+    }
+    .wordingsintwothreeblue{
+        font-size: 20px;
+        width: 90%;margin: auto;
+    }
+    .threebigborder{
+        margin-left: 0;
+        margin-top: 250px;
+    }
+    .orangeline{
+        width: 81%;margin: auto;margin-top: 10px;
+    }
+    .findoutmore{
+        width: 90%;margin: auto;margin-top: 20px;
+    }
+    .bottomthreeboxes{
+        width: 100%;margin: auto;margin-bottom: -20px;
+    }
+    .bottomthreeboxes1{
+        margin-top: 260px;
+    }
+    .leftrightrow{
+        display: none;
+    }
+    .bottomthreeboxesunder{
+        width: 100%;
+    }
+    .lifeatGRPcontentwordings b{
+        font-size: 25px;
+    }
+    .lifeatGRPcontentwordings p{
+        font-size: 18px;
+    }
+    .lifethreeunderwhite{
+        height: auto;
+    }
+    .lifeatGRPcontentwordings{
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    .sixblueunderword{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .wordingsintwothreewhite{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navbartohomebanner {
+        height: 175px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .wordingsintwothreewhite{
+        font-size: 15px;
+    }
+    .lifeatGRPcontentwordings b{
+        font-size: 20px;
+    }
+    .lifeatGRPcontentwordings p{
+        font-size: 15px;
+    }
+}

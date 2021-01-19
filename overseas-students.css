@@ -127,7 +127,7 @@
     margin-left: 0.5%;
 }
 .learningwordingbox{
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: 24px;
     padding: 25px;
     padding-bottom: 15px;
@@ -327,27 +327,36 @@
     }
     .atabroadimg{
         width: 100%;
-    }
-    .atabroadimg1{
-        width: 49.5%;
         margin-top: 10px;
     }
-    .atabroadimg2{
-        width: 49.5%;
-        height: 47%;
-        margin-top: 8px;
-        margin-left: 1%;
+    .atabroadimg_grid{
+        display: grid;
+        grid-template-columns: 49.8% 49.8%;
+        margin-top: 2px;
     }
-    .atabroadimg3{
-        width: 49.5%;
+    .leftrightrow{
         margin-top: 10px;
-        margin-left: 0;
     }
-    .atabroadimg4{
-        width: 49.5%;
-        margin-top: 10px;
-        margin-left: 1%;
-    }
+    /*.atabroadimg1{*/
+    /*    width: 49.5%;*/
+    /*    margin-top: 10px;*/
+    /*}*/
+    /*.atabroadimg2{*/
+    /*    width: 49.5%;*/
+    /*    height: 47%;*/
+    /*    margin-top: 8px;*/
+    /*    margin-left: 1%;*/
+    /*}*/
+    /*.atabroadimg3{*/
+    /*    width: 49.5%;*/
+    /*    margin-top: 10px;*/
+    /*    margin-left: 0;*/
+    /*}*/
+    /*.atabroadimg4{*/
+    /*    width: 49.5%;*/
+    /*    margin-top: 10px;*/
+    /*    margin-left: 1%;*/
+    /*}*/
     .atabroadimg3_2{
         width: 100%;
         margin-top: 10px;
